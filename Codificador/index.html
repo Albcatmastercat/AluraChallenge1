@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Codificador de Textos</title>
+</head>
+<body>
+    <header>Codificador/Decodificador</header>
+
+<main>
+
+    <section>
+        <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu Texto"></textarea>
+        <div class="info">
+            <h6>Apenas letras sem acento e minúsculas</h6>
+        </div>
+        <div class="buttons">
+            <button class="btn-encrypt" onClick="btnEncrypt()">Codificar</button>
+            <button class="btn-decrypt" onClick="btnDecrypt()">Decodificar</button>
+        </div>
+    </section>
+
+    <section><textarea class="message" cols="20" rows="10"></textarea></section>
+</main>
+    <script src="app.js"></script>
+</body>
+</html>
